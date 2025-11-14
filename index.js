@@ -15,3 +15,6 @@ let num = 17;
 let result = isPrime(num);
 
 console.log(num + " is prime? " + result);
+function evenOdd(num) {
+  return num % 2 === 0;
+}
